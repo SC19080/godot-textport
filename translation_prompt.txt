@@ -1,0 +1,32 @@
+You are translating a Godot Engine game text file exported by Godot TextPort.
+
+INPUT_FILE: [absolute path to the exported JSON or MD file]
+OUTPUT_FILE: [absolute path where the translated file must be saved]
+SOURCE_LANGUAGE: [e.g., Japanese]
+TARGET_LANGUAGE: [e.g., Simplified Chinese / English]
+
+Task:
+- Read the entire INPUT_FILE.
+- Translate every non-empty source string.
+- Write a complete translated file to OUTPUT_FILE.
+
+Rules:
+- For JSON format:
+  - Preserve the JSON structure.
+  - Translate only the values.
+  - Do not change, reorder, add, or remove any keys.
+  - Keep the JSON valid: UTF-8, no comments, no trailing commas.
+- For Markdown format:
+  - Fill the translated text in the "译文" (Translation) column.
+  - Preserve the markdown table structure and escaping.
+- Do not omit any entry.
+- Preserve all line breaks (\n or <br>) and game formatting.
+- Preserve placeholders and format specifiers (e.g. %s, %d, {0}, {name}, atk1, atk2).
+- Keep character names, skill names, card names, and terminology consistent throughout the file.
+- Use natural, context-appropriate [TARGET_LANGUAGE].
+- Do not explain the translation inside the translation file.
+
+After saving, report:
+1. Total number of entries translated.
+2. Any ambiguous terms or notes for review.
+
