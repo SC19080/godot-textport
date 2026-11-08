@@ -18,7 +18,7 @@ The game will display the translated text when restarted.
 
 > **Independent project.** Godot TextPort is an independent tool for game localization and translation research. It does not include any game data. You must own the games you translate.
 >
-> **Translating an RPG Maker game?** See `rpgm-textport-mv-mz` and `rpgm-textport-vx-ace` in the parent directory.
+> **Translating an RPG Maker game?** See `rpgm-textport-mv-mz` and `rpgm-textport-vx-ace`.
 
 ---
 
