@@ -18,7 +18,7 @@ Godot TextPort **不会**向游戏注入代码，不挂钩运行时，也不会�
 
 > **独立开源项目。** 本工具仅供学习研究与本地化翻译使用，不包含任何游戏数据，请在合法拥有的游戏上使用。
 >
-> **要翻译 RPG Maker 游戏？** 请查看同目录下的 `rpgm-textport-mv-mz` 与 `rpgm-textport-vx-ace`。
+> **要翻译 RPG Maker 游戏？** 请查看 `rpgm-textport-mv-mz` 与 `rpgm-textport-vx-ace`。
 
 ---
 
